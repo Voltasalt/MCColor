@@ -1,15 +1,25 @@
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    height: 100%;
-    width: 100%;
     margin: 0;
+    height: 100%;
 }
 
 .table {
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translateX(-760px) translateY(-70%);
+    transform: translateX(-750px) translateY(-90%);
+    float: left;
+}
+
+.subtable {
+    margin: 0 auto;
+    float: left;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-150%);
 }
 
 .cell {
